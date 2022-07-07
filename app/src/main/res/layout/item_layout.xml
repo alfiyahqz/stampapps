@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="25sp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_search_img"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:src="@drawable/ic_profile"
+            app:layout_constraintTop_toTopOf="@+id/container_user"
+            app:layout_constraintBottom_toBottomOf="@+id/container_user"
+            app:layout_constraintLeft_toLeftOf="@+id/container_user"
+            />
+
+        <TextView
+            android:id="@+id/username_search_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="username"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/container_user"
+            app:layout_constraintLeft_toRightOf="@+id/profile_search_img"
+            app:layout_constraintTop_toTopOf="@+id/container_user"
+            app:layout_constraintVertical_bias="0.511" />
+
+        <Button
+            android:id="@+id/follow_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:background="@drawable/design_outline"
+            android:padding="10sp"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:text="Follow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+           />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

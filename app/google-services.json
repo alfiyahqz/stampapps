@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "14181634744",
+    "project_id": "stampapps-fcc73",
+    "storage_bucket": "stampapps-fcc73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14181634744:android:aa6c92da31ae91dd56da4d",
+        "android_client_info": {
+          "package_name": "com.alfiyah.stamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14181634744-57dsaejih3qc0il47od78atikpsol75r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9dZQp7GBdq2Y0UNpL0LMXNL7jgQ527WQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14181634744-57dsaejih3qc0il47od78atikpsol75r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
